@@ -1,0 +1,128 @@
+[
+    {
+        "role": "user",
+        "content": "How do I reset my password?"
+    },
+    {
+        "role": "assistant",
+        "content": "You can reset your password using one of the following methods:\n\n**Method 1: Standard Password Reset**\n1. Open the company login page and click \"Forgot Password\".\n2. Enter your official email address.\n3. Click the password reset link sent to your email within 5 minutes.\n4. Enter a new password that complies with the password policy.\n\n**Method 2: Password Self-Service Portal**\n1. Navigate to `https://password.company.com` in a browser.\n2. Click **Reset Password** or **Unlock Account**.\n3. Enter your corporate email address and complete the captcha.\n4. Verify your identity using a registered secondary MFA method (SMS, email code, or Authenticator app).\n5. Enter a new password that meets the complexity requirements (minimum 12 characters, containing uppercase, lowercase, number, and special character, and not matching your last 5 passwords).\n6. Submit and wait 2 minutes for synchronization before logging in.",
+        "confidence": "High",
+        "score": 100.0,
+        "chunks": [
+            {
+                "id": "password_reset_chunk_0",
+                "text": "# password_reset",
+                "distance": 0.2821762268722785,
+                "similarity": 0.7178237731277215,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: password_reset",
+                    "source": "password_reset.md"
+                }
+            },
+            {
+                "id": "password_reset_chunk_1",
+                "text": "## Standard Password Reset Procedure\nThis guide describes how users can reset their passwords autonomously.\n\n1.  Open the company login page and click on the \"Forgot Password\" link.\n2.  Input your official email address.\n3.  You will receive a password reset link via email within 5 minutes.\n4.  Click the link and input a new password that complies with our password policy.",
+                "distance": 0.3243340109531778,
+                "similarity": 0.6756659890468222,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: password_reset > H2: Standard Password Reset Procedure",
+                    "source": "password_reset.md"
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_0",
+                "text": "# Password Self-Service Reset Guide",
+                "distance": 0.35476501110895764,
+                "similarity": 0.6452349888910424,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Password Self-Service Reset Guide",
+                    "source": "kb01_password_self_service.md"
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_3",
+                "text": "## References\n- See [kb01_password_self_service.md](kb01_password_self_service.md) for self-service guidelines.\n- Contact Helpdesk at `ext. 5555` if you cannot reset it online.",
+                "distance": 0.4115468207308488,
+                "similarity": 0.5884531792691512,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Dealing with Expired Passwords > H2: References",
+                    "source": "kb02_password_expired.md"
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_2",
+                "text": "## Resolution\n1. Open a browser and navigate to the self-service portal: `https://password.company.com`.\n2. Click **Reset Password** or **Unlock Account**.\n3. Input your corporate email address and complete the security captcha.\n4. Verify your identity using one of your registered secondary MFA methods (SMS, email code, or Authenticator app approval).\n5. Input a new password that matches the complexity requirements:\n   - Minimum 12 characters.\n   - At least 1 uppercase, 1 lowercase, 1 number, and 1 special character.\n   - Cannot match any of your previous 5 passwords.\n6. Submit the request and wait 2 minutes for synchronization before logging in.",
+                "distance": 0.4301395636058226,
+                "similarity": 0.5698604363941774,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Password Self-Service Reset Guide > H2: Resolution",
+                    "source": "kb01_password_self_service.md"
+                }
+            },
+            {
+                "id": "password_reset_chunk_2",
+                "text": "## Password Requirements\n*   Minimum 12 characters.\n*   Must contain at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special symbol.\n*   Cannot reuse any of your last 5 passwords.\n*   Reset links expire after 1 hour.",
+                "distance": 0.46657665520598834,
+                "similarity": 0.5334233447940117,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: password_reset > H2: Password Requirements",
+                    "source": "password_reset.md"
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_0",
+                "text": "# Dealing with Expired Passwords",
+                "distance": 0.47892972163441105,
+                "similarity": 0.521070278365589,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Dealing with Expired Passwords",
+                    "source": "kb02_password_expired.md"
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_3",
+                "text": "## References\n- See [kb02_password_expired.md](kb02_password_expired.md) if your account is fully suspended.\n- Contact `identity-support@company.com` for account locks.",
+                "distance": 0.4877995909739604,
+                "similarity": 0.5122004090260396,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Password Self-Service Reset Guide > H2: References",
+                    "source": "kb01_password_self_service.md"
+                }
+            },
+            {
+                "id": "kb02_password_expired_chunk_2",
+                "text": "## Resolution\n1. If your password has expired, you cannot log in to your workstation directly if it is offline. Connect your laptop to a wired office network port or use home Wi-Fi.\n2. If at login screen, click **Sign-in options** and choose security questions if configured.\n3. Otherwise, use a secondary device (e.g. mobile phone) and go to the web portal: `https://portal.office.com`.\n4. Try logging in; Microsoft 365 will display an alert: \"Your password has expired. Update it now.\"\n5. Enter your old password, then choose a new password.\n6. Once updated on the cloud, connect your laptop to the company VPN at the login screen (using the FortiClient pre-login connection button) to sync your local workstation password with active directory.",
+                "distance": 0.5328019280477198,
+                "similarity": 0.46719807195228025,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Dealing with Expired Passwords > H2: Resolution",
+                    "source": "kb02_password_expired.md"
+                }
+            },
+            {
+                "id": "kb01_password_self_service_chunk_1",
+                "text": "## Problem\nUsers forget their active directory passwords or get locked out of their accounts and need a quick self-service method to unlock themselves without calling the Helpdesk.",
+                "distance": 0.5575120137965535,
+                "similarity": 0.44248798620344654,
+                "metadata": {
+                    "chunk_index": 0,
+                    "headers": "H1: Password Self-Service Reset Guide > H2: Problem",
+                    "source": "kb01_password_self_service.md"
+                }
+            }
+        ],
+        "citations": [
+            "password_reset.md > H1: password_reset > H2: Standard Password Reset Procedure",
+            "kb01_password_self_service.md > H1: Password Self-Service Reset Guide > H2: Resolution"
+        ]
+    }
+]
